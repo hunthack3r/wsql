@@ -1,5 +1,5 @@
 
-# WSQL: Blind SQL Injection Scanner
+# WSQL: Vulnerability Validation SQL Injection | Blind SQL Injection Scanner
 
 [![License](https://img.shields.io/github/license/hunthack3r/wsql)](https://github.com/hunthack3r/wsql/blob/main/LICENSE) 
 [![Issues](https://img.shields.io/github/issues/hunthack3r/wsql)](https://github.com/hunthack3r/wsql/issues)
