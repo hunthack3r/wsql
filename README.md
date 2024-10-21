@@ -51,6 +51,8 @@ echo https://example.com/magazines?filter=test | python3 custom.py -p ./payloads
 
 This command scans the specified URL for SQL injection vulnerabilities using the payloads provided in `xor.txt` with 4 concurrent threads and verbose mode enabled.
 
+![Example Screenshot](example.png)
+
 ### Save Vulnerable URLs:
 
 You can save the found vulnerable URLs to a file using the prompt that appears at the end of the scan.
