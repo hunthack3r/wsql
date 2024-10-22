@@ -21,12 +21,24 @@
 To install WSQL, you need to have Python 3.x installed on your machine along with some dependencies:
 
 ```bash
+cd /opt
 git clone https://github.com/hunthack3r/wsql
 cd wsql
 pip install -r requirements.txt
 ```
+Automatic usage 
+```
+alias wsql='python3 /opt/wsql/wsql.py -p /opt/wsql/all.txt'
+```
+Automatic usage example after the `alias`
+```
+echo 'https://www.softeal.com/integration/Positions.asmx?op=CurrentPositionsQuery' | wsql
+```
+
+# OR 
 
 ## Usage
+
 
 Once installed, you can start using WSQL to scan URLs for SQL injection vulnerabilities by passing a URL through `stdin` and specifying the payload file.
 
