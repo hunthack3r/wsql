@@ -43,9 +43,12 @@ echo 'https://www.softeal.com/integration/Positions.asmx?op=CurrentPositionsQuer
 Once installed, you can start using WSQL to scan URLs for SQL injection vulnerabilities by passing a URL through `stdin` and specifying the payload file.
 
 ### Basic Usage
+```
+alias wsql="python3 /opt/wsql.py"
+```
 
 ```bash
-echo https://example.com | python3 custom.py -p xor.txt -t 4 -v
+echo https://example.com | wsql -p xor.txt -t 4 -v
 ```
 
 ### Command-Line Options:
