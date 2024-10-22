@@ -33,7 +33,7 @@ Once installed, you can start using WSQL to scan URLs for SQL injection vulnerab
 ### Basic Usage
 
 ```bash
-echo https://example.com | python3 custom.py -p ./payloads/xor.txt -t 4 -v
+echo https://example.com | python3 custom.py -p xor.txt -t 4 -v
 ```
 
 ### Command-Line Options:
@@ -46,7 +46,7 @@ echo https://example.com | python3 custom.py -p ./payloads/xor.txt -t 4 -v
 ### Example:
 
 ```bash
-echo https://example.com/magazines?filter=test | python3 custom.py -p ./payloads/xor.txt -t 4 -v
+echo https://example.com/magazines?filter=test | python3 custom.py -p xor.txt -t 4 -v
 ```
 
 This command scans the specified URL for SQL injection vulnerabilities using the payloads provided in `xor.txt` with 4 concurrent threads and verbose mode enabled.
