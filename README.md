@@ -44,7 +44,7 @@ Once installed, you can start using WSQL to scan URLs for SQL injection vulnerab
 
 ### Basic Usage
 ```
-alias wsql="python3 /opt/wsql.py"
+alias 'wsql="python3 /opt/wsql.py"' >> ~/.bashrc
 ```
 
 ```bash
