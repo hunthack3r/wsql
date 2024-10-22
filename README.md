@@ -27,11 +27,11 @@ cd wsql
 pip install -r requirements.txt
 ```
 Automatic usage 
-```
+```bash
 alias wsql='python3 /opt/wsql/wsql.py -p /opt/wsql/all.txt'
 ```
 Automatic usage example after the `alias`
-```
+```bash
 echo 'https://www.softeal.com/integration/Positions.asmx?op=CurrentPositionsQuery' | wsql
 ```
 
@@ -43,7 +43,7 @@ echo 'https://www.softeal.com/integration/Positions.asmx?op=CurrentPositionsQuer
 Once installed, you can start using WSQL to scan URLs for SQL injection vulnerabilities by passing a URL through `stdin` and specifying the payload file.
 
 ### Basic Usage
-```
+```bash
 alias 'wsql="python3 /opt/wsql.py"' >> ~/.bashrc
 ```
 
