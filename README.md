@@ -115,3 +115,6 @@ Feel free to [open an issue](https://github.com/hunthack3r/wsql/issues) for bug 
 Don't forget to **Star** ⭐ this repository if you find WSQL helpful! It motivates us to continue improving this project. 
 
 Stay secure, and happy hacking! 🛡️
+
+> [!WARNING]  
+> WSQL is intended for educational and ethical hacking purposes only. It should only be used to test systems you own or have explicit permission to test. Unauthorized use of third-party websites or systems without consent is illegal and unethical.
