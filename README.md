@@ -61,7 +61,7 @@ echo https://example.com | wsql -p xor.txt -t 4 -v
 ### Example:
 
 ```bash
-echo https://example.com/magazines?filter=test | python3 custom.py -p xor.txt -t 4 -v
+echo https://example.com/magazines?filter=test | wsql -p xor.txt -t 10 -v
 ```
 
 This command scans the specified URL for SQL injection vulnerabilities using the payloads provided in `xor.txt` with 4 concurrent threads and verbose mode enabled.
